@@ -1,0 +1,11 @@
+html,
+body,
+#root {
+  height: 100%;
+  background-color: #121212;
+  /* dark gray */
+  color: #ffffff;
+  /* default text color for contrast */
+  margin: 0;
+  padding: 0;
+}

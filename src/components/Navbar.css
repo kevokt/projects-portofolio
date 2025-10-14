@@ -1,0 +1,58 @@
+/* === Navbar Dark Mode === */
+nav.dark-nav {
+    background-color: #121212 !important;
+    box-shadow: none;
+}
+
+nav.dark-nav a {
+    color: #eaeaea !important;
+}
+
+/* === Nav Button === */
+.nav-button {
+    transition: all 0.5s;
+}
+
+.nav-button span {
+    display: flex;
+    /* use flex to align icon and text */
+    align-items: center;
+    /* vertical centering */
+    gap: 5px;
+    /* spacing between icon and text */
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s;
+}
+
+.nav-button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.nav-button:hover span {
+    padding-right: 25px;
+}
+
+.nav-button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+/* === Sidenav Dark Mode === */
+.sidenav {
+    background-color: #121212 !important;
+}
+
+.sidenav a {
+    color: #eaeaea !important;
+}
+
+.sidenav a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    /* optional hover effect */
+}
