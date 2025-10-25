@@ -1,0 +1,92 @@
+import React from "react";
+import "./Skill.css";
+import Lottie from "lottie-react";
+import developerAnimation from "../assets/lottie/developer.json";
+import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
+import { SiJavascript, SiNodedotjs, SiMongodb } from "react-icons/si";
+
+const Skill = () => {
+  return (
+    <section className="skill-section container">
+      <div className="skill-row">
+        {/* Illustration - now ordered 2nd on small screens */}
+        <div className="col s12 m6 center-align">
+          <Lottie
+            animationData={developerAnimation}
+            loop={true}
+            className="skill-lottie"
+          />
+        </div>
+
+        {/* Text Content */}
+        <div className="skill-content">
+          <h2 className="skill-title">My Skills</h2>
+          <p className="skill-subtitle">
+            CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK
+          </p>
+
+          {/* Tech Icons */}
+          <div className="tech-icons">
+            <div className="tech-item">
+              <FaHtml5 className="tech-icon" />
+              <span>HTML5</span>
+            </div>
+            <div className="tech-item">
+              <FaCss3Alt className="tech-icon" />
+              <span>CSS3</span>
+            </div>
+            <div className="tech-item">
+              <SiJavascript className="tech-icon" />
+              <span>JavaScript</span>
+            </div>
+            <div className="tech-item">
+              <FaReact className="tech-icon" />
+              <span>ReactJS</span>
+            </div>
+            <div className="tech-item">
+              <SiNodedotjs className="tech-icon" />
+              <span>NodeJS</span>
+            </div>
+            <div className="tech-item">
+              <SiMongodb className="tech-icon" />
+              <span>MongoDB</span>
+            </div>
+            <div className="tech-item">
+              <FaHtml5 className="tech-icon" />
+              <span>HTML5</span>
+            </div>
+            <div className="tech-item">
+              <FaCss3Alt className="tech-icon" />
+              <span>CSS3</span>
+            </div>
+            <div className="tech-item">
+              <SiJavascript className="tech-icon" />
+              <span>JavaScript</span>
+            </div>
+            <div className="tech-item">
+              <FaReact className="tech-icon" />
+              <span>ReactJS</span>
+            </div>
+            <div className="tech-item">
+              <SiNodedotjs className="tech-icon" />
+              <span>NodeJS</span>
+            </div>
+            <div className="tech-item">
+              <SiMongodb className="tech-icon" />
+              <span>MongoDB</span>
+            </div>
+          </div>
+
+          {/* Bullet List */}
+          <ul className="skill-list">
+            <li>⚡ Develop highly interactive Front end / User Interfaces</li>
+            <li>⚡ Progressive Web Applications ( PWA )</li>
+            <li>⚡ Integrations with Firebase / AWS / DigitalOcean</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Skill;
