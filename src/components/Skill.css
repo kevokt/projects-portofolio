@@ -17,7 +17,7 @@
 }
 
 /* Mobile: reverse order (text first, image after) */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .skill-row {
         flex-direction: column-reverse;
         text-align: center;
@@ -34,7 +34,6 @@
 
 .skill-subtitle {
     color: #8a8a8a;
-    text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 30px;
     font-size: 0.95rem;
@@ -83,6 +82,6 @@
 
 @media (max-width: 768px) {
     .skill-lottie {
-        max-width: 260px;
+        max-width: 400px;
     }
 }

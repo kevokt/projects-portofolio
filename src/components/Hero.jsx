@@ -4,11 +4,11 @@ import "./Hero.css";
 const Hero = () => {
   return (
     <div className="hero-section">
-      <div className="hero-content">
+      <div className="hero-content container">
         <h4>Hey there 👋</h4>
         <p>
-          Thanks for stopping by. I'm a Web Developer who builds modern and
-          responsive websites. here’s a little of what I do.
+          Thanks for stopping by. I'm Kevin Oktavian, a Web Developer who builds
+          modern and responsive websites.
         </p>
         <a href="resume.pdf" className="custom-button-main" target="_blank">
           Download Resume

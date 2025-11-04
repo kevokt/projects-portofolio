@@ -22,7 +22,7 @@ const Skill = () => {
         <div className="skill-content">
           <h2 className="skill-title">My Skills</h2>
           <p className="skill-subtitle">
-            CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK
+            What I’m great at (and still improving!)
           </p>
 
           {/* Tech Icons */}
@@ -51,37 +51,13 @@ const Skill = () => {
               <SiMongodb className="tech-icon" />
               <span>MongoDB</span>
             </div>
-            <div className="tech-item">
-              <FaHtml5 className="tech-icon" />
-              <span>HTML5</span>
-            </div>
-            <div className="tech-item">
-              <FaCss3Alt className="tech-icon" />
-              <span>CSS3</span>
-            </div>
-            <div className="tech-item">
-              <SiJavascript className="tech-icon" />
-              <span>JavaScript</span>
-            </div>
-            <div className="tech-item">
-              <FaReact className="tech-icon" />
-              <span>ReactJS</span>
-            </div>
-            <div className="tech-item">
-              <SiNodedotjs className="tech-icon" />
-              <span>NodeJS</span>
-            </div>
-            <div className="tech-item">
-              <SiMongodb className="tech-icon" />
-              <span>MongoDB</span>
-            </div>
           </div>
 
           {/* Bullet List */}
           <ul className="skill-list">
-            <li>⚡ Develop highly interactive Front end / User Interfaces</li>
-            <li>⚡ Progressive Web Applications ( PWA )</li>
-            <li>⚡ Integrations with Firebase / AWS / DigitalOcean</li>
+            <li>⚡ Develop responsive and accessible web interfaces</li>
+            <li>⚡ Build scalable backend services with Node.js</li>
+            <li>⚡ Design and integrate RESTful APIs and databases</li>
           </ul>
         </div>
       </div>
