@@ -1,0 +1,116 @@
+.contact-section {
+    padding: 80px 0;
+}
+
+/* Layout container */
+.contact-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+/* Two-column layout */
+.contact-image,
+.contact-content {
+    flex: 1;
+}
+
+/* Align text to the right */
+.contact-content {
+    text-align: right;
+}
+
+/* Title & subtitle */
+.contact-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.contact-subtitle {
+    color: #8a8a8a;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    font-size: 0.95rem;
+}
+
+/* Buttons container */
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 14px;
+}
+
+/* === Base Button Style === */
+.custom-button-main {
+    color: #fff;
+    padding: 10px 22px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.15s ease;
+}
+
+/* === Email Button (Red) === */
+.email-btn {
+    background: rgba(111, 0, 0, 0.7);
+    border: 1px solid #ff5b5b;
+}
+
+.email-btn:hover {
+    background: rgba(188, 0, 0, 0.791);
+}
+
+.email-btn:active {
+    transform: scale(0.97);
+}
+
+/* === WhatsApp Button (Green) === */
+.whatsapp-btn {
+    background: rgba(6, 111, 45, 0.8);
+    border: 1px solid #00a86b;
+}
+
+.whatsapp-btn:hover {
+    background: rgba(7, 163, 64, 0.871);
+}
+
+.whatsapp-btn:active {
+    transform: scale(0.97);
+}
+
+/* Lottie animation */
+.lottie {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Mobile adjustments */
+@media (max-width: 900px) {
+    .contact-row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-content {
+        text-align: center;
+    }
+
+    .contact-links {
+        align-items: center;
+    }
+
+    .lottie {
+        max-width: 400px;
+    }
+}

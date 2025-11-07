@@ -2,8 +2,8 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import PortofolioSection from "./components/PortofolioSection";
-import Footer from "./components/Footer";
 import Skill from "./components/Skill";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Hero />
       <Skill />
       <PortofolioSection />
-      <Footer />
+      <Contact />
     </>
   );
 }
