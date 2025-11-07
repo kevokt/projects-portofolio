@@ -1,8 +1,20 @@
 .portofolio-title {
     font-size: 2.5rem;
     font-weight: 600;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
     margin-top: 0;
+}
+
+.portofolio-subtitle {
+    color: #8a8a8a;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    font-size: 0.95rem;
+    text-align: center;
+}
+
+.tech {
+    color: #8a8a8a !important;
 }
 
 /* === Image Styling === */
@@ -85,6 +97,41 @@
 .project-card:hover .view-project {
     color: #e0b3ff;
     text-shadow: 0 0 8px #e0b3ff, 0 0 15px #b700ff;
+}
+
+.custom-button-portofolio {
+    background: rgba(42, 0, 82, 0.5);
+    /* dark purple */
+    color: #d9b3ff;
+    /* light purple text */
+    padding: 10px 22px;
+    border: 1px solid #7a39ff;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.15s ease;
+    display: inline-block;
+}
+
+.custom-button-portofolio:hover {
+    background: #3b0078;
+}
+
+.custom-button-portofolio:active {
+    transform: scale(0.97);
+}
+
+/* === Center "View More Projects" Button === */
+.custom-button-portofolio {
+    display: block;
+    /* make the button a block element */
+    margin: 2rem auto 0;
+    /* auto centers it horizontally + adds spacing above */
+    text-align: center;
+    /* centers text if needed */
+    width: fit-content;
+    /* ensures the width adjusts to the text */
 }
 
 @media (max-width: 600px) {
