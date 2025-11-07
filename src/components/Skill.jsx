@@ -116,6 +116,7 @@ const Skill = () => {
           </ul>
         </div>
       </div>
+      <a id="learn-more"></a>
     </section>
   );
 };

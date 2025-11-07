@@ -11,6 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <Skill />
+      
       <PortofolioSection />
       <Contact />
     </>
