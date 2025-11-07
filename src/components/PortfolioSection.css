@@ -1,3 +1,10 @@
+.portofolio-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+
 /* === Image Styling === */
 .project-image {
     width: 250px;

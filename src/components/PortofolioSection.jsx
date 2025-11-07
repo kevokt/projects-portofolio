@@ -29,7 +29,7 @@ const PortfolioSection = () => {
   ];
   return (
     <div className="container section">
-      <h4 className="center-align">Web Projects</h4>
+      <h2 className="center-align portofolio-title">Web Projects</h2>
       {projects.map((project) => (
         <a
           key={project.id}
