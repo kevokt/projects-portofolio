@@ -1,19 +1,19 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import PortofolioSection from "./components/PortofolioSection";
-import Skill from "./components/Skill";
-import Contact from "./components/Contact";
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./Home";
+import Projects from "./Projects";
+import ScrollToTop from "./ScrollToTop";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <Skill />
-      
-      <PortofolioSection />
-      <Contact />
+      <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
     </>
   );
 }

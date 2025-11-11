@@ -1,0 +1,167 @@
+.projects-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.projects-subtitle {
+    color: #8a8a8a;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    font-size: 0.95rem;
+    text-align: left;
+}
+
+.tech {
+    color: #8a8a8a !important;
+}
+
+/* === Image Styling === */
+.project-image {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: inherit;
+    transition: filter 0.3s ease;
+}
+
+/* === Card Layout === */
+.project-card {
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 24px;
+    background-color: #1a1a1a;
+    color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(128, 0, 255, 0.15);
+    transition: box-shadow 0.4s ease, transform 0.3s ease;
+    overflow: hidden;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px rgba(187, 0, 255, 0.7), 0 0 60px rgba(153, 0, 255, 0.4);
+}
+
+.project-card:hover .project-image {
+    filter: brightness(0.8);
+}
+
+.project-card .card-image {
+    flex: 0 0 250px;
+    overflow: hidden;
+    border-radius: 12px 0 0 12px;
+}
+
+.project-card .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* === Section Styling (Dark Mode) === */
+.section {
+    background-color: #121212;
+    color: #eaeaea;
+    padding: 4rem 0;
+}
+
+.section h4 {
+    color: #ffffff;
+    margin-bottom: 3rem;
+    font-weight: 500;
+}
+
+/* === Card Content === */
+.card-content h5 {
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.card-content p {
+    color: #ccc;
+    line-height: 1.5;
+}
+
+/* === View Project Text === */
+.view-project {
+    color: #b700ff;
+    font-weight: 500;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.project-card:hover .view-project {
+    color: #e0b3ff;
+    text-shadow: 0 0 8px #e0b3ff, 0 0 15px #b700ff;
+}
+
+.custom-button-portofolio {
+    background: rgba(42, 0, 82, 0.5);
+    /* dark purple */
+    color: #d9b3ff;
+    /* light purple text */
+    padding: 10px 22px;
+    border: 1px solid #7a39ff;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.15s ease;
+    display: inline-block;
+}
+
+.custom-button-portofolio:hover {
+    background: #3b0078;
+}
+
+.custom-button-portofolio:active {
+    transform: scale(0.97);
+}
+
+/* === Center "View More Projects" Button === */
+.custom-button-portofolio {
+    display: block;
+    /* make the button a block element */
+    margin: 2rem auto 0;
+    /* auto centers it horizontally + adds spacing above */
+    text-align: center;
+    /* centers text if needed */
+    width: fit-content;
+    /* ensures the width adjusts to the text */
+}
+
+@media (max-width: 600px) {
+    .project-card {
+        flex-direction: column;
+        padding: 0;
+        /* remove padding that blocks full width */
+    }
+
+    .project-card .card-image {
+        width: 100%;
+        height: 200px;
+        flex: none;
+        border-radius: 12px 12px 0 0;
+        overflow: hidden;
+    }
+
+    .project-card .card-image img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: cover;
+    }
+
+    .card-stacked {
+        width: 100%;
+    }
+
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import Lottie from "lottie-react";
-import contactAnimation from "../assets/lottie/contact.json";
+import contactAnimation from "../../assets/lottie/contact.json";
 
 // === React Icons ===
 import { FaWhatsapp } from "react-icons/fa";
@@ -20,7 +20,7 @@ const Contact = () => {
           </p>
           <div className="contact-links">
             <a
-              href="mailto:example@gmail.com"
+              href="mailto:kevinoktaviandev@gmail.com"
               className="custom-button-main email-btn"
               target="_blank"
               rel="noopener noreferrer"
@@ -29,7 +29,7 @@ const Contact = () => {
               Email
             </a>
             <a
-              href="https://wa.me/628123456789"
+              href="https://wa.me/6281213577546"
               className="custom-button-main whatsapp-btn"
               target="_blank"
               rel="noopener noreferrer"
