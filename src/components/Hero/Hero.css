@@ -1,108 +1,101 @@
 .hero-section {
-    position: relative;
-    height: 90vh;
-    width: 100vw;
-    max-height: 800px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-align: center;
-    overflow: hidden;
-}
-
-.hero-video-wrapper {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    z-index: 0;
-    opacity: 0;
-    transition: opacity 0.6s ease;
-}
-
-.hero-video-wrapper.visible {
-    opacity: 1;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  max-height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  margin-top: -64px;
 }
 
 .hero-video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100vw;
-    height: 56.25vw;
-    min-height: 100vh;
-    min-width: 177.77vh;
-    transform: translate(-50%, -50%) scale(1.1);
-    filter: blur(8px);
-    pointer-events: none;
-    border: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%) scale(1.1);
+  filter: blur(8px);
+  object-fit: cover;
 }
 
 .hero-section::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(180deg, rgba(90, 0, 180, 0.6), rgba(0, 0, 0, 0.8));
-    z-index: 1;
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(90, 0, 180, 0.6),
+    rgba(0, 0, 0, 0.8)
+  );
+  z-index: 1;
 }
 
 .hero-content {
-    position: relative;
-    z-index: 2;
+  position: relative;
+  z-index: 2;
+  padding-top: 64px;
 }
 
 .custom-button-main {
-    background: rgba(42, 0, 82, 0.5);
-    color: #d9b3ff;
-    padding: 10px 22px;
-    border: 1px solid #7a39ff;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: background 0.3s ease, transform 0.15s ease;
-    display: inline-block;
+  background: rgba(42, 0, 82, 0.5);
+  color: #d9b3ff;
+  padding: 10px 22px;
+  border: 1px solid #7a39ff;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition:
+    background 0.3s ease,
+    transform 0.15s ease;
+  display: inline-block;
 }
 
 .custom-button-main:hover {
-    background: #3b0078;
+  background: #3b0078;
 }
 
 .custom-button-main:active {
-    transform: scale(0.97);
+  transform: scale(0.97);
 }
 
 .custom-button-secondary {
-    margin-left: 15px;
-    background: rgba(82, 51, 0, 0.5);
-    color: #ffdeb3;
-    padding: 10px 22px;
-    border: 1px solid #ffa339;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: background 0.3s ease, transform 0.15s ease;
-    display: inline-block;
+  margin-left: 15px;
+  background: rgba(82, 51, 0, 0.5);
+  color: #ffdeb3;
+  padding: 10px 22px;
+  border: 1px solid #ffa339;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition:
+    background 0.3s ease,
+    transform 0.15s ease;
+  display: inline-block;
 }
 
 .custom-button-secondary:hover {
-    background: #784e00;
+  background: #784e00;
 }
 
 .custom-button-secondary:active {
-    transform: scale(0.97);
+  transform: scale(0.97);
 }
 
 .hero-fade {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 50px;
-    background: linear-gradient(to bottom, transparent, #121212);
-    z-index: 2;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(to bottom, transparent, #121212);
+  z-index: 2;
 }

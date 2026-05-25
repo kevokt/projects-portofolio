@@ -110,8 +110,8 @@ const Skill = () => {
 
           {/* Bullet List */}
           <ul className="skill-list">
-            <li>⚡ Develop responsive web interfaces</li>
-            <li>⚡ Build scalable backend services with Node.js</li>
+            <li>⚡ Develop modern and responsive web interfaces</li>
+            <li>⚡ Build scalable backend services</li>
             <li>⚡ Design and integrate RESTful APIs and databases</li>
           </ul>
         </div>

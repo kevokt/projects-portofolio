@@ -1,6 +1,16 @@
 /* === Navbar Dark Mode === */
 nav.dark-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
     background-color: #121212 !important;
+    box-shadow: none;
+    transition: background-color 0.3s ease;
+}
+
+nav.dark-nav.transparent {
+    background-color: transparent !important;
     box-shadow: none;
 }
 

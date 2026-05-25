@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import Logo from "../../assets/Logo";
 import "./Navbar.css";
 import { MdOutlineWebAsset } from "react-icons/md";
@@ -7,8 +7,20 @@ import { FaGithub } from "react-icons/fa";
 import { IoMdContact, IoMdHome } from "react-icons/io";
 
 const Navbar = () => {
+  const [scrolled, setScrolled] = useState(false);
+  const { pathname } = useLocation();
+  const isHome = pathname === "/";
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 50);
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  const navClass = `dark-nav${isHome && !scrolled ? " transparent" : ""}`;
+
   return (
-    <nav className="dark-nav" role="navigation">
+    <nav className={navClass} role="navigation">
       <div className="nav-wrapper container">
         <Link id="logo-container" to="/" className="brand-logo">
           <Logo />
