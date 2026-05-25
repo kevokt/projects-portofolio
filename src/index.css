@@ -12,9 +12,13 @@ body,
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
-a#learn-more {
+
+
+a#learn-more,
+a#contact {
   display: block;
   position: relative;
   top: -550px;

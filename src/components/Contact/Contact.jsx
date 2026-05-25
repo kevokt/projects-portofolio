@@ -49,6 +49,7 @@ const Contact = () => {
           />
         </div>
       </div>
+      <a id="contact"></a>
     </section>
   );
 };

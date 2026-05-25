@@ -1,12 +1,15 @@
 import React from "react";
 import "./Projects.css";
 import projects from "./projectsData";
+import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
   return (
     <div className="container section">
       <h2 className="projects-title">Web Projects</h2>
-      <p className="projects-subtitle">Here are the projects I've worked on.</p>
+      <p className="projects-subtitle">
+        Here’s a look at some of the projects I’ve built.
+      </p>
       {projects.map((project) => (
         <a
           key={project.id}
@@ -36,6 +39,21 @@ const Projects = () => {
           </div>
         </a>
       ))}
+      <div className="see-more">
+        <p className="projects-subtitle2">
+          Want to explore more of my work? Visit my GitHub!
+        </p>
+        <a
+          className="custom-button-projects projects-btn"
+          target="_blank"
+          href="https://github.com/kevokt"
+          rel="noopener noreferrer"
+        >
+          <span>
+            kevokt on GitHub <FaGithub />
+          </span>
+        </a>
+      </div>
     </div>
   );
 };

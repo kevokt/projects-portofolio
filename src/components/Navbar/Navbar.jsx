@@ -4,7 +4,7 @@ import Logo from "../../assets/Logo";
 import "./Navbar.css";
 import { MdOutlineWebAsset } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
-import { IoMdHome } from "react-icons/io";
+import { IoMdContact, IoMdHome } from "react-icons/io";
 
 const Navbar = () => {
   return (
@@ -33,7 +33,7 @@ const Navbar = () => {
 
           <li>
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/kevokt"
               target="_blank"
               rel="noopener noreferrer"
               className="nav-button"
@@ -42,6 +42,14 @@ const Navbar = () => {
                 <FaGithub /> GitHub
               </span>
             </a>
+          </li>
+
+          <li>
+            <Link to="/#contact" className="nav-button">
+              <span>
+                <IoMdContact /> Contact
+              </span>
+            </Link>
           </li>
         </ul>
 
@@ -62,7 +70,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/kevokt"
               target="_blank"
               rel="noopener noreferrer"
               className="nav-button"
@@ -72,9 +80,16 @@ const Navbar = () => {
               </span>
             </a>
           </li>
+          <li>
+            <Link to="/#contact" className="nav-button">
+              <span>
+                <IoMdContact /> Contact
+              </span>
+            </Link>
+          </li>
         </ul>
 
-        <a href="#" data-target="nav-mobile" className="sidenav-trigger">
+        <a data-target="nav-mobile" className="sidenav-trigger">
           <i className="material-icons">menu</i>
         </a>
       </div>

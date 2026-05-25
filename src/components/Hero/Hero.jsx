@@ -10,14 +10,14 @@ const Hero = () => {
           Thanks for stopping by. I'm Kevin Oktavian, a Web Developer who builds
           modern and responsive websites.
         </p>
-        <a href="resume.pdf" className="custom-button-main" target="_blank">
-          Download Resume
+        <a href="cv.pdf" className="custom-button-main" target="_blank">
+          Download CV
         </a>
         <a href="#learn-more" className="custom-button-secondary">
           Learn More
         </a>
       </div>
-      <div class="hero-fade"></div>
+      <div className="hero-fade"></div>
     </div>
   );
 };

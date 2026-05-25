@@ -13,6 +13,19 @@
     text-align: left;
 }
 
+.projects-subtitle2 {
+    color: #8a8a8a;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+    font-size: 0.95rem;
+    text-align: center;
+}
+
+.see-more {
+    margin-top: 50px;
+    padding: 0;
+}
+
 .tech {
     color: #8a8a8a !important;
 }
@@ -99,7 +112,7 @@
     text-shadow: 0 0 8px #e0b3ff, 0 0 15px #b700ff;
 }
 
-.custom-button-portofolio {
+.custom-button-projects {
     background: rgba(42, 0, 82, 0.5);
     /* dark purple */
     color: #d9b3ff;
@@ -114,16 +127,54 @@
     display: inline-block;
 }
 
-.custom-button-portofolio:hover {
+.custom-button-projects {
+    color: #fff;
+    padding: 10px 22px;
+    border: 1px solid #7a39ff;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.15s ease;
+
+}
+
+.projects-btn {
+    background: rgba(42, 0, 82, 0.5);
+    /* dark purple */
+    color: #d9b3ff;
+    /* light purple text */
+    border: 1px solid #7a39ff;
+}
+
+.projects-btn:hover {
     background: #3b0078;
 }
 
-.custom-button-portofolio:active {
+.projects-btn:active {
+    transform: scale(0.97);
+}
+
+/* === WhatsApp Button (Green) === */
+.whatsapp-btn {
+    background: rgba(6, 111, 45, 0.8);
+    border: 1px solid #00a86b;
+}
+
+.whatsapp-btn:hover {
+    background: rgba(7, 163, 64, 0.871);
+}
+
+.whatsapp-btn:active {
     transform: scale(0.97);
 }
 
 /* === Center "View More Projects" Button === */
-.custom-button-portofolio {
+.custom-button-projects {
     display: block;
     /* make the button a block element */
     margin: 2rem auto 0;

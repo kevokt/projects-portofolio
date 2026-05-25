@@ -9,7 +9,7 @@ const PortfolioSection = () => {
       title: "CV. David Teknik Blower",
       tech: "React, Vite, Chakra UI",
       description:
-        "Built and maintained responsive front-end components for a commercial website using React, Vite, and Chakra UI. Collaborated closely with the project manager to translate design requirements into clean, efficient, and visually consistent user interfaces. The website is currently live at davidteknik.com.",
+        "Built responsive front-end components for a commercial website using React, Vite, and Chakra UI. Collaborated closely with the project manager to translate design requirements into clean, efficient, and visually consistent user interfaces. The website is currently live at davidteknik.com.",
       image: "portofolio-image/img1.jpg",
       link: "https://davidteknik.com",
     },

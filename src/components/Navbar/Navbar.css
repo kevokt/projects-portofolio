@@ -42,6 +42,17 @@ nav.dark-nav a {
     right: 0;
 }
 
+.nav-mobile:hover {
+    cursor: pointer;
+}
+
+.sidenav-trigger {
+    position: relative;
+    z-index: 1002;
+    /* higher than nav, overlay, etc. */
+}
+
+
 /* === Sidenav Dark Mode === */
 .sidenav {
     background-color: #121212 !important;
