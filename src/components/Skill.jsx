@@ -13,6 +13,7 @@ import {
   FaPhp,
   FaJava,
   FaPython,
+  FaBolt,
 } from "react-icons/fa";
 import {
   SiJavascript,
@@ -22,6 +23,8 @@ import {
   SiMongodb,
   SiPostgresql,
   SiMysql,
+  SiChakraui,
+  SiGo,
 } from "react-icons/si";
 
 const Skill = () => {
@@ -75,6 +78,10 @@ const Skill = () => {
               <span>Bootstrap</span>
             </div>
             <div className="tech-item">
+              <SiChakraui className="tech-icon" />
+              <span>Chakra UI</span>
+            </div>
+            <div className="tech-item">
               <SiMaterialdesign className="tech-icon" />
               <span>Materialize</span>
             </div>
@@ -93,6 +100,14 @@ const Skill = () => {
             <div className="tech-item">
               <FaPython className="tech-icon" />
               <span>Python</span>
+            </div>
+            <div className="tech-item">
+              <SiGo className="tech-icon" />
+              <span>Golang</span>
+            </div>
+            <div className="tech-item">
+              <FaBolt className="tech-icon" />
+              <span>Fiber</span>
             </div>
             <div className="tech-item">
               <SiMongodb className="tech-icon" />
