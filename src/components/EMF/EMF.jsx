@@ -1,7 +1,12 @@
 import React from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import { useCallback } from "react";
-import { FiArrowLeft, FiArrowRight, FiExternalLink, FiGithub } from "react-icons/fi";
+import {
+  FiArrowLeft,
+  FiArrowRight,
+  FiExternalLink,
+  FiGithub,
+} from "react-icons/fi";
 import "./EMF.css";
 
 const images = [
@@ -12,8 +17,16 @@ const images = [
 ];
 
 const techStack = [
-  "Go", "React", "PostgreSQL", "Docker", "Redis", "Nginx",
-  "GitHub Actions", "Linux", "REST API", "JWT",
+  "Go",
+  "React",
+  "PostgreSQL",
+  "Docker",
+  "Redis",
+  "Nginx",
+  "GitHub Actions",
+  "Linux",
+  "REST API",
+  "JWT",
 ];
 
 const highlights = [
@@ -59,7 +72,9 @@ const EMF = () => {
         <div className="article-content container">
           <span className="article-period">Nov 2025 - Present</span>
           <h1 className="article-title">PT e-Manufaktur</h1>
-          <p className="article-role">Full Stack Developer &amp; DevOps Engineer</p>
+          <p className="article-role">
+            Full Stack Developer &amp; DevOps Engineer
+          </p>
         </div>
         <div className="article-fade" />
       </header>
@@ -87,10 +102,11 @@ const EMF = () => {
           <div className="article-main">
             <h2>Overview</h2>
             <p>
-              At PT e-Manufaktur, I work as a Full Stack Developer and DevOps Engineer
-              building and maintaining the company's internal ERP system. The platform
-              handles the complete lifecycle of customer inquiries, from initial draft
-              through multi-stage approvals to final PDF quotation generation.
+              At PT e-Manufaktur, I work as a Full Stack Developer and DevOps
+              Engineer building and maintaining the company's internal ERP
+              system. The platform handles the complete lifecycle of customer
+              inquiries, from initial draft through multi-stage approvals to
+              final PDF quotation generation.
             </p>
 
             <h2>Key Highlights</h2>
@@ -109,7 +125,9 @@ const EMF = () => {
               <h3>Tech Stack</h3>
               <div className="tech-tags">
                 {techStack.map((tech) => (
-                  <span className="tech-tag" key={tech}>{tech}</span>
+                  <span className="tech-tag" key={tech}>
+                    {tech}
+                  </span>
                 ))}
               </div>
             </div>
@@ -117,10 +135,20 @@ const EMF = () => {
             <div className="sidebar-card">
               <h3>Links</h3>
               <div className="sidebar-links">
-                <a href="#" className="sidebar-link" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="#"
+                  className="sidebar-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FiExternalLink /> Company Site
                 </a>
-                <a href="#" className="sidebar-link" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="#"
+                  className="sidebar-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FiGithub /> Repository
                 </a>
               </div>

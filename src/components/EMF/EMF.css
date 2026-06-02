@@ -2,6 +2,12 @@
   background-color: #121212;
   color: #eaeaea;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.article-body {
+  flex: 1;
 }
 
 .article-header {
@@ -139,12 +145,13 @@
 
 /* === Article Body === */
 .article-body {
-  padding: 60px 0 100px;
+  padding: 60px 0 200px;
   margin-top: 60px;
 }
 
 .article-grid {
   margin-top: 40px;
+  margin-bottom: 40px;
   display: grid;
   grid-template-columns: 1fr 320px;
   gap: 48px;
@@ -251,6 +258,7 @@
   text-decoration: none;
   font-weight: 500;
   font-size: 0.95rem;
+
   transition: color 0.3s ease;
 }
 

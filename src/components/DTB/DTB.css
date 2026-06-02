@@ -2,6 +2,12 @@
   background-color: #121212;
   color: #eaeaea;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.article-body {
+  flex: 1;
 }
 
 .article-header {
@@ -130,7 +136,7 @@
 
 /* === Article Body === */
 .article-body {
-  padding: 60px 0 100px;
+  padding: 60px 0 200px;
   margin-top: 60px;
 }
 
