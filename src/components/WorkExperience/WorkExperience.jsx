@@ -15,7 +15,7 @@ const experiences = [
       "Deveop an automated quotation PDF generator that transforms customer inquiries and internal pricing calculation into finzalized, client-ready documentation.",
     ],
     thumbnail: "/portofolio-image/emf-thumbnail.jpeg",
-    link: "/emf",
+    link: "/e-manufaktur",
   },
   {
     id: 2,

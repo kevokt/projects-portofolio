@@ -1,78 +1,77 @@
 /* === Navbar Dark Mode === */
 nav.dark-nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    background-color: #121212 !important;
-    box-shadow: none;
-    transition: background-color 0.3s ease;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #121212 !important;
+  box-shadow: none;
+  transition: background-color 0.3s ease;
 }
 
 nav.dark-nav.transparent {
-    background-color: transparent !important;
-    box-shadow: none;
+  background-color: transparent !important;
+  box-shadow: none;
 }
 
 nav.dark-nav a {
-    color: #eaeaea !important;
+  color: #eaeaea !important;
 }
 
 /* === Nav Button === */
 .nav-button {
-    transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .nav-button span {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    /* space between icon and text */
-    vertical-align: middle;
-    cursor: pointer;
-    position: relative;
-    transition: 0.5s;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  /* space between icon and text */
+  vertical-align: middle;
+  cursor: pointer;
+  position: relative;
+  transition: 0.5s;
 }
 
 .nav-button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
 }
 
 .nav-button:hover span {
-    padding-right: 25px;
+  padding-right: 25px;
 }
 
 .nav-button:hover span:after {
-    opacity: 1;
-    right: 0;
+  opacity: 1;
+  right: 0;
 }
 
 .nav-mobile:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .sidenav-trigger {
-    position: relative;
-    z-index: 1002;
-    /* higher than nav, overlay, etc. */
+  position: relative;
+  z-index: 1002;
+  /* higher than nav, overlay, etc. */
 }
-
 
 /* === Sidenav Dark Mode === */
 .sidenav {
-    background-color: #121212 !important;
+  background-color: #121212 !important;
 }
 
 .sidenav a {
-    color: #eaeaea !important;
+  color: #eaeaea !important;
 }
 
 .sidenav a:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-    /* optional hover effect */
+  background-color: rgba(255, 255, 255, 0.1);
+  /* optional hover effect */
 }
