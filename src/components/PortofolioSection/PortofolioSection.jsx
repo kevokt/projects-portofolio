@@ -5,15 +5,6 @@ import { Link } from "react-router-dom";
 const PortfolioSection = () => {
   const projects = [
     {
-      id: 1,
-      title: "CV. David Teknik Blower",
-      tech: "React, Vite, Chakra UI",
-      description:
-        "Built responsive front-end components for a commercial website using React, Vite, and Chakra UI. Collaborated closely with the project manager to translate design requirements into clean, efficient, and visually consistent user interfaces. The website is currently live at davidteknik.com.",
-      image: "portofolio-image/img1.jpg",
-      link: "https://davidteknik.com",
-    },
-    {
       id: 2,
       title: "UG-BOT | Gunadarma University Chatbot Website",
       tech: "React, Express.js, MongoDB, Node.js, Chakra UI, Botpress, JWT",

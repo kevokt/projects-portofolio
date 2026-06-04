@@ -12,21 +12,24 @@ import "./EMF.css";
 
 const images = [
   "/portofolio-image/emf-thumbnail.jpeg",
-  "/carousel/emf/image.png",
-  "/portofolio-image/img5.jpg",
-  "/portofolio-image/img6.jpg",
+  "/carousel/emf/emf-admin-dash.png",
+  "/carousel/emf/emf-bd-quo.png",
+  "/carousel/emf/emf-crm-inq.png",
+  "/carousel/emf/emf-pe-calc.png",
+  "/carousel/emf/emf-pe-dash.png",
+  "/carousel/emf/emf-rl-1.jpg",
+  "/carousel/emf/emf-rl-2.jpg",
 ];
 
 const techStack = [
-  "Go Fiber",
+  "Golang Fiber",
   "React",
   "PostgreSQL",
   "PM2",
   "REST API",
   "JWT",
+  "VPS",
   "GitHub Actions",
-  "Caddy",
-  "Biznet Cloud VPS",
 ];
 
 const highlights = [
@@ -56,7 +59,7 @@ const highlights = [
   },
   {
     title: "DevOps & Deployment",
-    desc: "Managed CI/CD pipelines and implemented Linux server deployments.",
+    desc: "Managed CI/CD pipelines through GitHub Actions and implemented Linux server deployments.",
   },
 ];
 

@@ -1,7 +1,12 @@
 import React from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import { useCallback } from "react";
-import { FiArrowLeft, FiArrowRight, FiExternalLink, FiGithub } from "react-icons/fi";
+import {
+  FiArrowLeft,
+  FiArrowRight,
+  FiExternalLink,
+  FiGithub,
+} from "react-icons/fi";
 import "./DTB.css";
 
 const images = [
@@ -11,8 +16,12 @@ const images = [
 ];
 
 const techStack = [
-  "React", "Vite", "Chakra UI", "JavaScript", "CSS3", "REST API",
-  "Git", "Responsive Design",
+  "React",
+  "Vite",
+  "Chakra UI",
+  "JavaScript",
+  "REST API",
+  "Responsive Web Design",
 ];
 
 const highlights = [
@@ -82,10 +91,10 @@ const DTB = () => {
           <div className="article-main">
             <h2>Overview</h2>
             <p>
-              At CV. David Teknik Blower, I worked as a Front-end Developer building
-              the company's commercial website. I collaborated closely with the project
-              manager to translate design requirements into clean, performant React components
-              using Chakra UI and Vite.
+              At CV. David Teknik Blower, I worked as a Front-end Developer
+              building the company's commercial website. I collaborated closely
+              with the project manager to translate design requirements into
+              clean, performant React components using Chakra UI and Vite.
             </p>
 
             <h2>Key Highlights</h2>
@@ -104,7 +113,9 @@ const DTB = () => {
               <h3>Tech Stack</h3>
               <div className="tech-tags">
                 {techStack.map((tech) => (
-                  <span className="tech-tag" key={tech}>{tech}</span>
+                  <span className="tech-tag" key={tech}>
+                    {tech}
+                  </span>
                 ))}
               </div>
             </div>
@@ -112,11 +123,13 @@ const DTB = () => {
             <div className="sidebar-card">
               <h3>Links</h3>
               <div className="sidebar-links">
-                <a href="https://davidteknik.com" className="sidebar-link" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://davidteknik.com"
+                  className="sidebar-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FiExternalLink /> Live Site
-                </a>
-                <a href="#" className="sidebar-link" target="_blank" rel="noopener noreferrer">
-                  <FiGithub /> Repository
                 </a>
               </div>
             </div>

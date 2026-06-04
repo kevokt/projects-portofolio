@@ -29,7 +29,7 @@ const Contact = () => {
               Email
             </a>
             <a
-              href="https://wa.me/6281213577546"
+              href="https://wa.me/6285168870159"
               className="custom-button-main whatsapp-btn"
               target="_blank"
               rel="noopener noreferrer"

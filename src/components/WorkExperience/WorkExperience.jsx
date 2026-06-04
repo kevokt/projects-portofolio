@@ -23,8 +23,9 @@ const experiences = [
     role: "Front-end Developer",
     period: "Nov 2024 - Feb 2025",
     description: [
-      "Describe your key responsibility or achievement here.",
-      "Another notable accomplishment at this role.",
+      "Built responsive front-end components for a commercial website using React, Vite, and Chakra UI.",
+      "Collaborated closely with the project manager to translate design requirements into clean, efficient, and visually consistent user interfaces.",
+      "Website is currently live at davidteknik.com.",
     ],
     thumbnail: "/portofolio-image/dtb-thumbnail.png",
     link: "/david-teknik-blower",
