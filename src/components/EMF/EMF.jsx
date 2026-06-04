@@ -6,37 +6,45 @@ import {
   FiArrowRight,
   FiExternalLink,
   FiGithub,
+  FiLinkedin,
 } from "react-icons/fi";
 import "./EMF.css";
 
 const images = [
   "/portofolio-image/emf-thumbnail.jpeg",
-  "/portofolio-image/img4.jpg",
+  "/carousel/emf/image.png",
   "/portofolio-image/img5.jpg",
   "/portofolio-image/img6.jpg",
 ];
 
 const techStack = [
-  "Go",
+  "Go Fiber",
   "React",
   "PostgreSQL",
-  "Docker",
-  "Redis",
-  "Nginx",
-  "GitHub Actions",
-  "Linux",
+  "PM2",
   "REST API",
   "JWT",
+  "GitHub Actions",
+  "Caddy",
+  "Biznet Cloud VPS",
 ];
 
 const highlights = [
   {
     title: "ERP System",
-    desc: "Built a company-wide ERP system handling inquiries, quotations, and internal calculations.",
+    desc: "Built a company custom ERP system handling inquiries, quotations, and internal calculations.",
   },
   {
-    title: "Dynamic Draft System",
-    desc: "Implemented auto-saving drafts to prevent data loss and improve user workflow efficiency.",
+    title: "Multiple User Roles",
+    desc: "Implemented role-based access control to manage different user permissions and responsibilities.",
+  },
+  {
+    title: "Data Isolation",
+    desc: "Implemented data isolation mechanisms to ensure secure handling of data based on different organizational units.",
+  },
+  {
+    title: "Draft System",
+    desc: "Implemented drafts for multiple forms to prevent data loss and improve user workflow efficiency.",
   },
   {
     title: "Multi-Stage Approval",
@@ -48,7 +56,7 @@ const highlights = [
   },
   {
     title: "DevOps & Deployment",
-    desc: "Managed CI/CD pipelines, Docker containers, and Linux server deployments.",
+    desc: "Managed CI/CD pipelines and implemented Linux server deployments.",
   },
 ];
 
@@ -136,7 +144,7 @@ const EMF = () => {
               <h3>Links</h3>
               <div className="sidebar-links">
                 <a
-                  href="#"
+                  href="https://e-manufaktur.co.id"
                   className="sidebar-link"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -144,12 +152,12 @@ const EMF = () => {
                   <FiExternalLink /> Company Site
                 </a>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/company/teknologimanufakturindonesia/"
                   className="sidebar-link"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FiGithub /> Repository
+                  <FiLinkedin /> Company LinkedIn
                 </a>
               </div>
             </div>

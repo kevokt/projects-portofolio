@@ -1,8 +1,12 @@
+.work-section {
+  margin-top: 80px;
+}
+
 .work-title {
   font-size: 2.5rem;
   font-weight: 600;
   margin-bottom: 5px;
-  margin-top: 0;
+  margin-top: 20px;
 }
 
 .work-subtitle {
@@ -71,12 +75,16 @@
   display: block;
   text-decoration: none;
   color: inherit;
-  transition: transform 0.3s ease, box-shadow 0.4s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.4s ease;
 }
 
 .timeline-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 0 25px rgba(187, 0, 255, 0.7), 0 0 60px rgba(153, 0, 255, 0.4);
+  box-shadow:
+    0 0 25px rgba(187, 0, 255, 0.7),
+    0 0 60px rgba(153, 0, 255, 0.4);
 }
 
 .timeline-thumb {
@@ -149,12 +157,16 @@
   color: #b700ff;
   font-weight: 500;
   font-size: 0.9rem;
-  transition: color 0.3s ease, text-shadow 0.3s ease;
+  transition:
+    color 0.3s ease,
+    text-shadow 0.3s ease;
 }
 
 .timeline-card:hover .timeline-read-more {
   color: #e0b3ff;
-  text-shadow: 0 0 8px #e0b3ff, 0 0 15px #b700ff;
+  text-shadow:
+    0 0 8px #e0b3ff,
+    0 0 15px #b700ff;
 }
 
 .timeline-card-action {

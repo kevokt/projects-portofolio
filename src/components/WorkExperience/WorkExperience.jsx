@@ -26,7 +26,7 @@ const experiences = [
       "Describe your key responsibility or achievement here.",
       "Another notable accomplishment at this role.",
     ],
-    thumbnail: "/portofolio-image/img1.jpg",
+    thumbnail: "/portofolio-image/dtb-thumbnail.png",
     link: "/david-teknik-blower",
   },
 ];
