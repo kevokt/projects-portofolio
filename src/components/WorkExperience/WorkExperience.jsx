@@ -10,9 +10,10 @@ const experiences = [
     period: "Nov 2025 - Present",
     description: [
       "Built a company ERP system using Go Languague and React",
+      "Set up CI/CD pipelines using GitHub Actions to ensure rapid and reliable delivery of new features and updates.",
       "Built a dynamic draft system to improve user workflow and prevent data loss.",
       "Design a multi-stage approval and rejection workflow to manage the progression of inquiries, internal calculation, and final quotation/",
-      "Deveop an automated quotation PDF generator that transforms customer inquiries and internal pricing calculation into finzalized, client-ready documentation.",
+      "Develop an automated quotation PDF generator that transforms customer inquiries and internal pricing calculation into finalized, client-ready documentation.",
     ],
     thumbnail: "/portofolio-image/emf-thumbnail.jpeg",
     link: "/e-manufaktur",
@@ -27,7 +28,7 @@ const experiences = [
       "Collaborated closely with the project manager to translate design requirements into clean, efficient, and visually consistent user interfaces.",
       "Website is currently live at davidteknik.com.",
     ],
-    thumbnail: "/portofolio-image/dtb-thumbnail.png",
+    thumbnail: "/portofolio-image/dtb-thumbnail.jpg",
     link: "/david-teknik-blower",
   },
 ];

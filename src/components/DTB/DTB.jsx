@@ -10,9 +10,10 @@ import {
 import "./DTB.css";
 
 const images = [
-  "/portofolio-image/img1.jpg",
-  "/portofolio-image/img2.jpg",
-  "/portofolio-image/img3.jpg",
+  "/portofolio-image/dtb-thumbnail.jpg",
+  "/carousel/dtb/image-1.png",
+  "/carousel/dtb/image-2.png",
+  "/carousel/dtb/image-3.png",
 ];
 
 const techStack = [

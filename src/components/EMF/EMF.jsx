@@ -34,32 +34,44 @@ const techStack = [
 
 const highlights = [
   {
-    title: "ERP System",
-    desc: "Built a company custom ERP system handling inquiries, quotations, and internal calculations.",
+    title: "Design-to-Code",
+    desc: "Translated Figma designs into responsive, production-ready interfaces while maintaining design fidelity across breakpoints.",
   },
   {
     title: "Multiple User Roles",
-    desc: "Implemented role-based access control to manage different user permissions and responsibilities.",
+    desc: "Implemented role-based access control managing 3 roles across 6 departments with distinct permissions and responsibilities.",
   },
   {
     title: "Data Isolation",
-    desc: "Implemented data isolation mechanisms to ensure secure handling of data based on different organizational units.",
+    desc: "Enforced per-department data boundaries so each organizational unit only accesses its own records, regardless of role.",
   },
   {
     title: "Draft System",
-    desc: "Implemented drafts for multiple forms to prevent data loss and improve user workflow efficiency.",
+    desc: "Implemented persistent drafts across multiple forms to prevent data loss and improve user workflow efficiency.",
   },
   {
     title: "Multi-Stage Approval",
-    desc: "Designed a multi-stage approval and rejection workflow for inquiries and quotations.",
+    desc: "Designed a multi-stage approval and rejection workflow for inquiries and quotations with full status tracking.",
   },
   {
     title: "PDF Generator",
-    desc: "Developed an automated PDF generator transforming internal pricing into client-ready quotations.",
+    desc: "Developed an automated PDF generator transforming internal pricing calculations into client-ready quotations.",
+  },
+  {
+    title: "Authentication & Session Management",
+    desc: "Implemented cookie-based JWT authentication with expiry handling and protected routes enforced on both frontend and backend.",
+  },
+  {
+    title: "Form Validation & Error Handling",
+    desc: "Built consistent validation and user-facing error feedback across the majority of forms to ensure data integrity and a smooth user experience.",
+  },
+  {
+    title: "Audit Trail",
+    desc: "Logged approval and rejection actions system-wide, with a dedicated activity view exposed to superadmin for full operational visibility.",
   },
   {
     title: "DevOps & Deployment",
-    desc: "Managed CI/CD pipelines through GitHub Actions and implemented Linux server deployments.",
+    desc: "Managed CI/CD pipelines through GitHub Actions and implemented Linux server deployments via PM2 on a VPS.",
   },
 ];
 
